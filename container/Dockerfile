@@ -3,7 +3,7 @@ FROM node:current-alpine
 
 LABEL org.opencontainers.image.title="Hello Docker Learners!" \
       org.opencontainers.image.description="Web server showing host that responded" \
-      org.opencontainers.image.authors="@georgeokez"
+      org.opencontainers.image.authors="@georgeokez7"
 
 # Create directory in container image for app code
 RUN mkdir -p /usr/src/app
